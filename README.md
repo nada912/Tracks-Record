@@ -1,4 +1,4 @@
-# Tracks-Records -  Vissualization project
+# Tracks-Records -  Visualization project
 Preprocessing of various files containing the listening history of different users.
 
 ##How to start and run the project :
