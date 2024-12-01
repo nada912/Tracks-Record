@@ -87,4 +87,27 @@ The processed data was stored in a PostgreSQL database hosted on Supabase.
 	    "driver": "org.postgresql.Driver"
 	}
 	df_formatted.write.jdbc(url=jdbc_url, table="public.tracks_record", mode="overwrite", properties=properties)
+## PowerBI Dashboard
+### The star model
+In this project, we used a star schema to structure our data model, enhancing query performance and enabling efficient reporting. The star schema consists of a central fact table here called “public tracks_record” surrounded by multiple dimension tables, which simplifies data relationships and improves readability. Each table is smaller and easier to join which makes it easier to filter and query our data.
+
+Therefore, the dimensions table here are:
+Year Dimension: A table that contains a list of all unique years.
+Week Dimension: A table that contains a list of all unique weeks.
+Listener Dimension: A table that contains information about listeners.
+Track Dimension: A table that contains information about the tracks being listened to.
+Album Dimension: A table that contains information about the albums.
+Artist Dimension: A table that contains information about the artists.
+
+### The requested KPIs
+
+Most listened track of all time
+Most listened track for each week
+Most listened album of all time
+Most listened album for each week
+Cross tabulation of the number of listened tracks by listener and by artist
+Ranking the 10 biggest listeners of all time
+Ranking the 10 biggest listeners for each week
+
+### Additional KPIs
 
