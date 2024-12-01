@@ -112,4 +112,9 @@ Here’s the list of the requested KPIs for this project to which we added two o
 	Ranking the 10 biggest listeners for each week
 
 ### Additional KPIs
-For additional KPIs, we decided on top artist and top artist per week
+For additional KPIs, we decided on : 
+	Overall top artist
+ 	Top artist per combination of week-year
+  	Total Tracks overall and per combination of week-year
+   	Total Albums overall and per combination of week-year
+    	Total Artist overall and per combination of week-year
