@@ -16,6 +16,15 @@ Have a data bricks account (If not, create an account with your professional ema
     Once the notebook is created, click on “File” -> “Import” to import the notebook available on Github.
     Now execute the cells to get and process the data then load it to the database.
 ### Step 4 : At this point everything is done, you can visualize the dashboard on PowerBi.
+Connect To PowerBi and select “Get Data from other source”
+Select on the left sidebar “Database” -> “PostgreSQL Database”
+Connect with the following and open the Report Tracks.pbix file :
+
+	Host : http://aws-0-eu-central-1.pooler.supabase.com
+	Database name: postgre
+	user :  postgres.vozazcxddifukxwhauox
+	password: PasswordTracks2024.
+Reconnect to the database in case you have trouble visualizing the dashboard
 
 # Conception and implementation process:
 ## 1. What Is It?
