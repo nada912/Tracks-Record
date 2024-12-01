@@ -36,7 +36,7 @@ The project performs the following key functions:
 
 ### Data Ingestion: 
 Given the context of the project, the data was available on Teams, so we downloaded the files locally on our computers.
-### Data Processing: 
+### Data Processing (Databricks): 
 #### Data extraction
 The raw data within the RDD was processed to extract the listener names from the file paths. Additionally, the content was split into individual records, each representing a unique music listening event. Each record was parsed into five distinct fields: listener name, artist/band, album, track, and date.
 
@@ -77,7 +77,7 @@ We then had to make sure that any rows that were redundant or completely empty w
   	df_formatted = df_formatted.dropDuplicates()
    	df_formatted = df_formatted.dropna(subset=[col for col in df_formatted.columns if col != 'listener'], how='all')
 
-### Database Integration:
+### Database Integration :
 The processed data was stored in a PostgreSQL database hosted on Supabase.
 
 	jdbc_url = "jdbc:postgresql://aws-0-eu-central-1.pooler.supabase.com:6543/postgres"
