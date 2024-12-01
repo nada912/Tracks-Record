@@ -101,14 +101,15 @@ Therefore, the dimensions table here are:
 	Artist Dimension: A table that contains information about the artists.
 
 ### The requested KPIs
+Here’s the list of the requested KPIs for this project to which we added two others:
 
-Most listened track of all time
-Most listened track for each week
-Most listened album of all time
-Most listened album for each week
-Cross tabulation of the number of listened tracks by listener and by artist
-Ranking the 10 biggest listeners of all time
-Ranking the 10 biggest listeners for each week
+	Most listened track of all time
+	Most listened track for each week
+	Most listened album of all time
+	Most listened album for each week
+	Cross tabulation of the number of listened tracks by listener and by artist
+	Ranking the 10 biggest listeners of all time
+	Ranking the 10 biggest listeners for each week
 
 ### Additional KPIs
-
+For additional KPIs, we decided on top artist and top artist per week
