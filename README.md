@@ -92,12 +92,12 @@ The processed data was stored in a PostgreSQL database hosted on Supabase.
 In this project, we used a star schema to structure our data model, enhancing query performance and enabling efficient reporting. The star schema consists of a central fact table here called “public tracks_record” surrounded by multiple dimension tables, which simplifies data relationships and improves readability. Each table is smaller and easier to join which makes it easier to filter and query our data.
 
 Therefore, the dimensions table here are:
-Year Dimension: A table that contains a list of all unique years.
-Week Dimension: A table that contains a list of all unique weeks.
-Listener Dimension: A table that contains information about listeners.
-Track Dimension: A table that contains information about the tracks being listened to.
-Album Dimension: A table that contains information about the albums.
-Artist Dimension: A table that contains information about the artists.
+	Year Dimension: A table that contains a list of all unique years.
+	Week Dimension: A table that contains a list of all unique weeks.
+	Listener Dimension: A table that contains information about listeners.
+	Track Dimension: A table that contains information about the tracks being listened to.
+	Album Dimension: A table that contains information about the albums.
+	Artist Dimension: A table that contains information about the artists.
 
 ### The requested KPIs
 
