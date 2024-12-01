@@ -114,8 +114,8 @@ Here’s the list of the requested KPIs for this project to which we added two o
 ### Additional KPIs
 For additional KPIs, we decided on : 
 	
- 	Overall top artist
- 	Top artist per combination of week-year
-  	Total Tracks overall and per combination of week-year
-   	Total Albums overall and per combination of week-year
-    	Total Artist overall and per combination of week-year
+	Overall top artist
+	Top artist per combination of week-year
+	Total Tracks overall and per combination of week-year
+	Total Albums overall and per combination of week-year
+	Total Artist overall and per combination of week-year
